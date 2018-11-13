@@ -1,0 +1,312 @@
+[
+{
+  "guid": "0-ZZZ123456781D",
+  "destination": "0-AAA12345678",
+  "minLatitude" : 9.17,
+  "maxLatitude" : 22.82,
+  "minLongitude" : 103.02,
+  "maxLongitude" : 109.32,
+  "GPR_bandwidth" : "500 MHz",
+  "EMI_frequency" : "75 Hz",
+  "weather" : "overcast",
+  "soil" : {
+     "type" : "silt",
+     "moisture" : "dry"
+      } ,
+  "cover" : "rocks",
+  "eventTime": "2018-11-05T06:42:38.001051Z",
+  "payload": {
+     "format": "urn:land-mine-detector:sensor:lat-long-depth-length-size-metal",
+     "data": {
+       "latitude": 14.78,
+       "longitude": 107.35,
+       "depth": 0.43,
+       "length": 1.00,
+       "height": 11.00,
+       "nitrogenLevel" : "high",
+       "metal" : 2,
+       "size" : 1,
+       "confidence" : 1
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456781Q",
+  "destination": "0-AAA12345678",
+  "minLatitude" : 9.17,
+  "maxLatitude" : 22.82,
+  "minLongitude" : 103.02,
+  "maxLongitude" : 109.32,
+  "GPR_bandwidth" : "500 MHz",
+  "EMI_frequency" : "75 Hz",
+  "weather" : "rain",
+  "soil" : {
+     "type" : "loam",
+     "moisture" : "wet"
+      } ,
+  "cover" : "none",
+  "eventTime": "2018-11-05T06:42:38.001133Z",
+  "payload": {
+     "format": "urn:land-mine-detector:sensor:lat-long-depth-length-size-metal",
+     "data": {
+       "latitude": 20.91,
+       "longitude": 107.99,
+       "depth": 1.35,
+       "length": 7.00,
+       "height": 14.00,
+       "nitrogenLevel" : "high",
+       "metal" : 2,
+       "size" : 1,
+       "confidence" : 3
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456784Y",
+  "destination": "0-AAA12345678",
+  "minLatitude" : 9.17,
+  "maxLatitude" : 22.82,
+  "minLongitude" : 103.02,
+  "maxLongitude" : 109.32,
+  "GPR_bandwidth" : "500 MHz",
+  "EMI_frequency" : "75 Hz",
+  "weather" : "rain",
+  "soil" : {
+     "type" : "sand",
+     "moisture" : "dry"
+      } ,
+  "cover" : "rocks",
+  "eventTime": "2018-11-05T06:42:38.001193Z",
+  "payload": {
+     "format": "urn:land-mine-detector:sensor:lat-long-depth-length-size-metal",
+     "data": {
+       "latitude": 9.58,
+       "longitude": 107.22,
+       "depth": 1.78,
+       "length": 3.00,
+       "height": 13.00,
+       "nitrogenLevel" : "low",
+       "metal" : 0,
+       "size" : 1,
+       "confidence" : 4
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456783M",
+  "destination": "0-AAA12345678",
+  "minLatitude" : 9.17,
+  "maxLatitude" : 22.82,
+  "minLongitude" : 103.02,
+  "maxLongitude" : 109.32,
+  "GPR_bandwidth" : "500 MHz",
+  "EMI_frequency" : "75 Hz",
+  "weather" : "clear",
+  "soil" : {
+     "type" : "clay",
+     "moisture" : "wet"
+      } ,
+  "cover" : "none",
+  "eventTime": "2018-11-05T06:42:38.001268Z",
+  "payload": {
+     "format": "urn:land-mine-detector:sensor:lat-long-depth-length-size-metal",
+     "data": {
+       "latitude": 13.91,
+       "longitude": 108.58,
+       "depth": 2.66,
+       "length": 21.00,
+       "height": 10.00,
+       "nitrogenLevel" : "low",
+       "metal" : 0,
+       "size" : 2,
+       "confidence" : 0
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456781Y",
+  "destination": "0-AAA12345678",
+  "minLatitude" : 9.17,
+  "maxLatitude" : 22.82,
+  "minLongitude" : 103.02,
+  "maxLongitude" : 109.32,
+  "GPR_bandwidth" : "500 MHz",
+  "EMI_frequency" : "75 Hz",
+  "weather" : "overcast",
+  "soil" : {
+     "type" : "silt",
+     "moisture" : "dry"
+      } ,
+  "cover" : "vegetative",
+  "eventTime": "2018-11-05T06:42:38.001325Z",
+  "payload": {
+     "format": "urn:land-mine-detector:sensor:lat-long-depth-length-size-metal",
+     "data": {
+       "latitude": 12.64,
+       "longitude": 103.30,
+       "depth": 1.77,
+       "length": 21.00,
+       "height": 12.00,
+       "nitrogenLevel" : "low",
+       "metal" : 0,
+       "size" : 2,
+       "confidence" : 1
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456787L",
+  "destination": "0-AAA12345678",
+  "minLatitude" : 9.17,
+  "maxLatitude" : 22.82,
+  "minLongitude" : 103.02,
+  "maxLongitude" : 109.32,
+  "GPR_bandwidth" : "500 MHz",
+  "EMI_frequency" : "75 Hz",
+  "weather" : "clear",
+  "soil" : {
+     "type" : "silt",
+     "moisture" : "dry"
+      } ,
+  "cover" : "vegetative",
+  "eventTime": "2018-11-05T06:42:38.001380Z",
+  "payload": {
+     "format": "urn:land-mine-detector:sensor:lat-long-depth-length-size-metal",
+     "data": {
+       "latitude": 16.06,
+       "longitude": 103.99,
+       "depth": 4.63,
+       "length": 19.00,
+       "height": 11.00,
+       "nitrogenLevel" : "high",
+       "metal" : 1,
+       "size" : 2,
+       "confidence" : 4
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456787G",
+  "destination": "0-AAA12345678",
+  "minLatitude" : 9.17,
+  "maxLatitude" : 22.82,
+  "minLongitude" : 103.02,
+  "maxLongitude" : 109.32,
+  "GPR_bandwidth" : "500 MHz",
+  "EMI_frequency" : "75 Hz",
+  "weather" : "clear",
+  "soil" : {
+     "type" : "loam",
+     "moisture" : "wet"
+      } ,
+  "cover" : "vegetative",
+  "eventTime": "2018-11-05T06:42:38.001437Z",
+  "payload": {
+     "format": "urn:land-mine-detector:sensor:lat-long-depth-length-size-metal",
+     "data": {
+       "latitude": 11.85,
+       "longitude": 106.75,
+       "depth": 3.67,
+       "length": 27.00,
+       "height": 17.00,
+       "nitrogenLevel" : "high",
+       "metal" : 2,
+       "size" : 2,
+       "confidence" : 5
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456781O",
+  "destination": "0-AAA12345678",
+  "minLatitude" : 9.17,
+  "maxLatitude" : 22.82,
+  "minLongitude" : 103.02,
+  "maxLongitude" : 109.32,
+  "GPR_bandwidth" : "500 MHz",
+  "EMI_frequency" : "75 Hz",
+  "weather" : "rain",
+  "soil" : {
+     "type" : "sand",
+     "moisture" : "wet"
+      } ,
+  "cover" : "water",
+  "eventTime": "2018-11-05T06:42:38.001490Z",
+  "payload": {
+     "format": "urn:land-mine-detector:sensor:lat-long-depth-length-size-metal",
+     "data": {
+       "latitude": 11.08,
+       "longitude": 105.90,
+       "depth": 1.25,
+       "length": 3.00,
+       "height": 17.00,
+       "nitrogenLevel" : "low",
+       "metal" : 0,
+       "size" : 1,
+       "confidence" : 4
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456782Q",
+  "destination": "0-AAA12345678",
+  "minLatitude" : 9.17,
+  "maxLatitude" : 22.82,
+  "minLongitude" : 103.02,
+  "maxLongitude" : 109.32,
+  "GPR_bandwidth" : "500 MHz",
+  "EMI_frequency" : "75 Hz",
+  "weather" : "clear",
+  "soil" : {
+     "type" : "clay",
+     "moisture" : "dry"
+      } ,
+  "cover" : "rocks",
+  "eventTime": "2018-11-05T06:42:38.001542Z",
+  "payload": {
+     "format": "urn:land-mine-detector:sensor:lat-long-depth-length-size-metal",
+     "data": {
+       "latitude": 9.52,
+       "longitude": 107.30,
+       "depth": 5.81,
+       "length": 8.00,
+       "height": 19.00,
+       "nitrogenLevel" : "high",
+       "metal" : 1,
+       "size" : 2,
+       "confidence" : 5
+     }
+   }
+},
+{
+  "guid": "0-ZZZ123456785R",
+  "destination": "0-AAA12345678",
+  "minLatitude" : 9.17,
+  "maxLatitude" : 22.82,
+  "minLongitude" : 103.02,
+  "maxLongitude" : 109.32,
+  "GPR_bandwidth" : "500 MHz",
+  "EMI_frequency" : "75 Hz",
+  "weather" : "overcast",
+  "soil" : {
+     "type" : "loam",
+     "moisture" : "dry"
+      } ,
+  "cover" : "vegetative",
+  "eventTime": "2018-11-05T06:42:38.001594Z",
+  "payload": {
+     "format": "urn:land-mine-detector:sensor:lat-long-depth-length-size-metal",
+     "data": {
+       "latitude": 11.64,
+       "longitude": 108.27,
+       "depth": 1.41,
+       "length": 22.00,
+       "height": 6.00,
+       "nitrogenLevel" : "high",
+       "metal" : 1,
+       "size" : 2,
+       "confidence" : 3
+     }
+   }
+}
+]
