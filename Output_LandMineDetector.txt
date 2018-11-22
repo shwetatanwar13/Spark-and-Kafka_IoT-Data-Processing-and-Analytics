@@ -1,0 +1,146 @@
+========= 2018-11-19 19:45:20 =========
+========= 2018-11-19 19:45:30 =========
+................................Table Schema.................................
+
+root
+ |-- EMI_frequency: string (nullable = true)
+ |-- GPR_bandwidth: string (nullable = true)
+ |-- cover: string (nullable = true)
+ |-- destination: string (nullable = true)
+ |-- eventTime: string (nullable = true)
+ |-- guid: string (nullable = true)
+ |-- payload: struct (nullable = true)
+ |    |-- data: struct (nullable = true)
+ |    |    |-- confidence: long (nullable = true)
+ |    |    |-- depth: double (nullable = true)
+ |    |    |-- height: double (nullable = true)
+ |    |    |-- latitude: double (nullable = true)
+ |    |    |-- length: double (nullable = true)
+ |    |    |-- longitude: double (nullable = true)
+ |    |    |-- metal: long (nullable = true)
+ |    |    |-- nitrogenLevel: string (nullable = true)
+ |    |-- format: string (nullable = true)
+ |-- soil: struct (nullable = true)
+ |    |-- moisture: string (nullable = true)
+ |    |-- type: string (nullable = true)
+ |-- weather: string (nullable = true)
+
+...........................Current Environmental Factors.......................
+
++-------------+-------------+-----+-------------+---------+--------+-------------+
+|EMI_frequency|GPR_bandwidth|cover|Soil_Moisture|Soil_type| weather|  destination|
++-------------+-------------+-----+-------------+---------+--------+-------------+
+|           75|         2000|rocks|          dry|     sand|overcast|0-AAA12345678|
++-------------+-------------+-----+-------------+---------+--------+-------------+
+
+................................List of False Alarm objects......................................
+
++---------+----------+------+------+----------------+--------+
+| latitude| longitude|height|length|Type_of_Material|   Depth|
++---------+----------+------+------+----------------+--------+
+|13.841591|109.058812|  13.0|  24.0|           Metal|  Buried|
+|13.826992|109.032875|  15.0|   1.0|           Metal|Surfaced|
+|13.837401|109.010758|  17.0|  13.0|   Partial Metal|Surfaced|
+| 13.84229|109.092054|   2.0|   1.0|         Plastic|  Buried|
+|13.828443|109.060139|   8.0|   4.0|   Partial Metal|  Buried|
++---------+----------+------+------+----------------+--------+
+
+..............List of Land Mines....................
+
++---------+----------+------+------+----------------+--------+--------------+--------------------+
+| latitude| longitude|height|length|type_of_material|   depth|         alarm|         mine_status|
++---------+----------+------+------+----------------+--------+--------------+--------------------+
+|13.832673| 109.07478|  11.0|   9.0|         Plastic|Surfaced|     Low Alarm|    More data needed|
+|13.836135|109.088905|  18.0|  21.0|   Partial Metal|Surfaced|     Low Alarm|    More data needed|
+|13.837071| 109.03787|   8.0|   4.0|         Plastic|Surfaced|     Low Alarm|    More data needed|
+|13.840597| 109.02264|   4.0|   8.0|   Partial Metal|  Buried|Moderate Alarm|Start Detonation ...|
+|13.841222| 109.02637|   9.0|   0.0|         Plastic|  Buried|     Low Alarm|    More data needed|
++---------+----------+------+------+----------------+--------+--------------+--------------------+
+
+..............Generating Map....................
+
+Map saved in the home directory
+..............Summary Report....................
+
+Total messages: 10
+No. of High Priority Land Mines: 0
+No. of Moderate Priority Land Mines: 1
+No. of Low Priority Land Mines: 4
+No. of False Alarms: 5
+========= 2018-11-19 19:45:40 =========
+========= 2018-11-19 19:45:50 =========
+========= 2018-11-19 19:46:00 =========
+................................Table Schema.................................
+
+root
+ |-- EMI_frequency: string (nullable = true)
+ |-- GPR_bandwidth: string (nullable = true)
+ |-- cover: string (nullable = true)
+ |-- destination: string (nullable = true)
+ |-- eventTime: string (nullable = true)
+ |-- guid: string (nullable = true)
+ |-- payload: struct (nullable = true)
+ |    |-- data: struct (nullable = true)
+ |    |    |-- confidence: long (nullable = true)
+ |    |    |-- depth: double (nullable = true)
+ |    |    |-- height: double (nullable = true)
+ |    |    |-- latitude: double (nullable = true)
+ |    |    |-- length: double (nullable = true)
+ |    |    |-- longitude: double (nullable = true)
+ |    |    |-- metal: long (nullable = true)
+ |    |    |-- nitrogenLevel: string (nullable = true)
+ |    |-- format: string (nullable = true)
+ |-- soil: struct (nullable = true)
+ |    |-- moisture: string (nullable = true)
+ |    |-- type: string (nullable = true)
+ |-- weather: string (nullable = true)
+
+...........................Current Environmental Factors.......................
+
++-------------+-------------+----------+-------------+---------+-------+-------------+
+|EMI_frequency|GPR_bandwidth|     cover|Soil_Moisture|Soil_type|weather|  destination|
++-------------+-------------+----------+-------------+---------+-------+-------------+
+|           75|         2000|vegetative|          dry|     sand|   rain|0-AAA12345678|
++-------------+-------------+----------+-------------+---------+-------+-------------+
+
+................................List of False Alarm objects......................................
+
++---------+----------+------+------+----------------+--------+
+| latitude| longitude|height|length|Type_of_Material|   Depth|
++---------+----------+------+------+----------------+--------+
+|13.824755| 109.05939|  12.0|   4.0|         Plastic|  Buried|
+|13.833293|109.068176|  12.0|   0.0|         Plastic|  Buried|
+|13.838725|109.003675|  17.0|   1.0|           Metal|Surfaced|
+|13.832343|109.034054|   3.0|  26.0|           Metal|  Buried|
+|13.833804|109.085799|  15.0|   8.0|           Metal|Surfaced|
++---------+----------+------+------+----------------+--------+
+
+..............List of Land Mines....................
+
++---------+----------+------+------+----------------+--------+-----------------+--------------------+
+| latitude| longitude|height|length|type_of_material|   depth|            alarm|         mine_status|
++---------+----------+------+------+----------------+--------+-----------------+--------------------+
+|13.822549| 109.01567|   9.0|   8.0|   Partial Metal|  Buried|        Low Alarm|    More data needed|
+|13.832673| 109.07478|  11.0|   9.0|         Plastic|Surfaced|        Low Alarm|    More data needed|
+|13.832995| 109.05728|  11.0|  14.0|         Plastic|  Buried|   Moderate Alarm|Start Detonation ...|
+|13.836135|109.088905|  18.0|  21.0|   Partial Metal|Surfaced|        Low Alarm|    More data needed|
+|13.836095| 109.03243|  18.0|   1.0|         Plastic|  Buried|Insufficient Data|    More data needed|
+|13.837071| 109.03787|   8.0|   4.0|         Plastic|Surfaced|        Low Alarm|    More data needed|
+| 13.83754| 109.09233|   6.0|  18.0|   Partial Metal|  Buried|   Moderate Alarm|Start Detonation ...|
+|13.840597| 109.02264|   4.0|   8.0|   Partial Metal|  Buried|   Moderate Alarm|Start Detonation ...|
+|13.839701| 109.00054|   6.0|   7.0|   Partial Metal|  Buried|       High Alarm|ALERT:Start Deton...|
+|13.841222| 109.02637|   9.0|   0.0|         Plastic|  Buried|        Low Alarm|    More data needed|
++---------+----------+------+------+----------------+--------+-----------------+--------------------+
+
+..............Generating Map....................
+
+Map saved in the home directory
+..............Summary Report....................
+
+Total messages: 20
+No. of High Priority Land Mines: 1
+No. of Moderate Priority Land Mines: 3
+No. of Low Priority Land Mines: 5
+No. of False Alarms: 10
+========= 2018-11-19 19:46:10 =========
+========= 2018-11-19 19:46:20 =========
